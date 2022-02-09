@@ -3,7 +3,7 @@ using Flunt.Validations;
 
 namespace Store.Domain.Entities;
 
-public abstract class Customer : Entity
+public class Customer : Entity
 {
     public Customer(string name, string email)
     {
